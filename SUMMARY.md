@@ -6,4 +6,5 @@
    * http报文内的http信息
    * 返回结果的http状态码
    * 与http协作的web服务器
+   * http首部
 
