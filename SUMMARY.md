@@ -7,4 +7,5 @@
    * 返回结果的http状态码
    * 与http协作的web服务器
    * http首部
+   * 确保web安全的https
 
