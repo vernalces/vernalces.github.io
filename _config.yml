@@ -1,0 +1,10 @@
+baseurl: /
+gems: [jekyll-paginate]
+paginate: 10
+paginate_path: "page:num"
+encoding: utf-8
+markdown: rdiscount
+name: vernal
+description: vernal's blog
+url: https://vernalces.github.io
+avatar: https://avatars2.githubusercontent.com/u/4571604?v=3&u=2565f76ba33440b0b561737da86188253037a571&s=140
