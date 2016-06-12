@@ -1,9 +1,11 @@
-<!-- GoStats JavaScript Based Code -->
 <script type="text/javascript" src="http://gostats.cn/js/counter.js"></script>
-<script type="text/javascript">_gos='c4.gostats.cn';_goa=396978;
-_got=5;_goi=1;_gol='¼ÆÊýÆ÷ÖÆ×÷';_GoStatsRun();</script>
-<noscript><a target="_blank" title="¼ÆÊýÆ÷ÖÆ×÷" 
-href="http://gostats.cn"><img alt="¼ÆÊýÆ÷ÖÆ×÷" 
-src="http://c4.gostats.cn/bin/count/a_396978/t_5/i_1/counter.png" 
-style="border-width:0" /></a></noscript>
-<!-- End GoStats JavaScript Based Code -->
+<script type="text/javascript">
+_gos='c4.gostats.cn';
+_goa=396978;
+_got=5;
+_goi=1;_gol='è®¡æ•°å™¨åˆ¶ä½œ';
+_GoStatsRun();
+</script>
+<noscript>
+  <a target="_blank" title="è®¡æ•°å™¨åˆ¶ä½œ" href="http://gostats.cn"><img alt="è®¡æ•°å™¨åˆ¶ä½œ" src="http://c4.gostats.cn/bin/count/a_396978/t_5/i_1/counter.png" style="border-width:0" /></a>
+</noscript>
