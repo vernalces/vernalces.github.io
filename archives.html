@@ -1,14 +1,14 @@
 ---
-title: ¹éµµ
+title: å½’æ¡£
 layout: default
 ---
 <div class="posttext" style="margin-bottom: 20px;">
     <div class="posttitle">
-        <a href="{{ page.url }}"><i class="fa fa-archive"></i>&nbsp;&nbsp;¹éµµ</a><hr>
+        <a href="{{ page.url }}"><i class="fa fa-archive"></i>&nbsp;&nbsp;å½’æ¡£</a><hr>
     </div>
     <ul>
         {% for post in site.posts %}
-        {% capture y %}{{ post.date | date:"%Y Äê" }}{% endcapture %}
+        {% capture y %}{{ post.date | date:"%Y å¹´" }}{% endcapture %}
         {% if year != y %}
         {% assign year = y %}
         <li><a href="#{{ y }}">{{ y }}</a></li>
@@ -20,7 +20,7 @@ layout: default
     <div class="posttext">
         <ul>
             {% for post in site.posts %}
-            {% capture y %}{{ post.date | date:"%Y Äê" }}{% endcapture %}
+            {% capture y %}{{ post.date | date:"%Y å¹´" }}{% endcapture %}
             {% if year != y %}
             {% assign year = y %}
             </ul>
@@ -28,7 +28,7 @@ layout: default
             <ul>
             {% endif %}
             <li>
-            <time datetime="{{ post.date }}">{{ post.date | date:"%m ÔÂ %d ÈÕ" }}</time>
+            <time datetime="{{ post.date }}">{{ post.date | date:"%m æœˆ %d æ—¥" }}</time>
             <a href="{{ post.url }}" title="{{ post.title }}">&nbsp;&nbsp;{{ post.title }}</a>
             </li>
             {% endfor %}
