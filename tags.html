@@ -1,10 +1,10 @@
 ---
-title: ±êÇ©
+title: æ ‡ç­¾
 layout: default
 ---
 <div class="posttext" style="margin-bottom: 20px;">
     <div class="posttitle">
-        <a href="{{ page.url }}"><i class="fa fa-tags"></i>&nbsp;&nbsp;±êÇ©</a><hr>
+        <a href="{{ page.url }}"><i class="fa fa-tags"></i>&nbsp;&nbsp;æ ‡ç­¾</a><hr>
     </div>
     <div class="tag">
         {% for tag in site.tags %}
@@ -24,7 +24,7 @@ layout: default
         <ul>
             {% for post in tag[1] %}
             <li>
-                <time datetime="{{ post.date }}">{{ post.date | date:"%Y Äê %m ÔÂ" }}</time>&nbsp;&nbsp;
+                <time datetime="{{ post.date }}">{{ post.date | date:"%Y å¹´ %m æœˆ" }}</time>&nbsp;&nbsp;
                 <a href="{{ post.url }}" title="{{ post.title }}">{{ post.title }}</a>
             </li>
             {% endfor %}
